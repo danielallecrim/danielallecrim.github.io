@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300;0,700;1,700;0,900;1,900&display=swap" rel="stylesheet">
     <!-- Dev Icon Fonts -->
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- CDN do Simple Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons-font@v7/font/simple-icons.min.css">
     <!-- Css do Projeto -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -15,21 +17,74 @@
     <main id="container">
         <aside id="bio-container">
             <h2>Daniel Alecrim</h2>
-            <img src="img/foto_perfil_danielalecrim.png" alt="Daniel Alecrim">
-            <p>Olá, meu nome é Daniel Alecrim e sou <span class="highlight">Analista & Desenvolvedor</span></p>
+            <img id="bio-image" src="img/foto_perfil_danielalecrim.png" alt="Daniel Alecrim">
+            <p>Olá, meu nome é Daniel Alecrim e sou <span class="highlight">Analista & Desenvolvedor Back-End</span></p>
             <p id="welcome-text">Seja bem-vindo</p>
             <ul id="social-container">
                 <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-                <li><a href="#" target="_blank"><ion-icon></ion-icon></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61581531067245" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
             </ul>
             <div id="email-container">
-                <ion-icon name="mail" ></ion-icon><a href="mailto:danielalecrim.tvc@gmail.com">danielalecrim.tvc@gmail.com</a>
+                <ion-icon name="mail"></ion-icon><a href="mailto:danielalecrim.tvc@gmail.com">danielalecrim.tvc@gmail.com</a>
             </div>
         </aside>
         <section id="about-container">
+            <h1 id="name">Daniel Alecrim</h1>
+            <p id="title"><span class="highlight">Analista & Desenvolvedor Back-End</span></p>
+            <p class="description">
+                Sou um desenvolvedor com grande afinidade pelo <span class="highlight">back-end / server side</span>, 
+                e gosto de acompanhar todo o ciclo do projeto — desde o 
+                <span class="highlight">levantamento de requisitos e definição das regras de negócio</span> 
+                até o <span class="highlight">deploy da aplicação</span>.
+            </p>
+            <p class="description">
+                Embora meu foco principal seja no <span class="highlight">back-end</span>, 
+                também possuo experiência prática no <span class="highlight">front-end</span>, 
+                o que me permite atuar de forma completa quando necessário. 
+                Sou apaixonado por tecnologia e estudo todos os dias para evoluir como desenvolvedor 
+                e escrever código cada vez mais limpo e de qualidade.
+            </p>
+            <a href="https://github.com/danielallecrim" target="_blank" id="btn-projects"><ion-icon name="share"></ion-icon><span>Ver projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Conheça as tecnologias que estudo e tenho afinidade:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-react-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-java-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <i class="si si-microsoftsqlserver icon-skill" style="color:#CC2927;"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Frameworks</p>
+                    <i class="devicon-spring-plain colored"></i>
+                    <i class="devicon-express-original-wordmark"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-github-plain"></i>
+                    <i class="devicon-bash-plain"></i>
+                    <i class="devicon-eclipse-plain colored"></i>
+                    <i class="devicon-vscode-plain colored"></i>
+               </div>
+            </div>
         </section>
     </main>
+    <!--Ion Icons-->
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 </html>
